@@ -54,7 +54,7 @@ class Feedback extends Component {
   }
 
   render() {
-    const {isFeedbackSelected} = this.StaticRange
+    const {isFeedbackSelected} = this.state
 
     return (
       <div className="app-container">
